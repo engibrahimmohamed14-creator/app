@@ -1,7 +1,6 @@
-https://github.com/KurimuzonAkuma/kurigram/archive/dev.zip
 tgcrypto
 asyncio
 requests
 pyaes
 pymongo
-https://${GITHUB_TOKEN}@github.com/engibrahimmohamed14-creator/abra.git
+git+https://github.com/KurimuzonAkuma/kurigram.git@dev
