@@ -3,16 +3,6 @@
   "description": "Telegram bot with emoji fetcher",
   "repository": "https://github.com/engibrahimmohamed14-creator/app.git",
   "logo": "https://scalingo.com/logo.svg",
-  "formation": {
-    "web": {
-      "amount": 1,
-      "size": "S"
-    },
-    "worker": {
-      "amount": 1,
-      "size": "S"
-    }
-  },
   "env": {
     "GITHUB_TOKEN": {
       "description": "GitHub token for accessing repositories",
