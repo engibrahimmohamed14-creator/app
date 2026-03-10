@@ -5,7 +5,7 @@
   "repository": "https://github.com/engibrahimmohamed14-creator/app.git",
   "website": "https://scalingo.com",
   "formation": {
-    "web": {
+    "worker": {
       "amount": 1,
       "size": "S"
     }
