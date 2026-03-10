@@ -4,3 +4,4 @@ asyncio
 requests
 pyaes
 pymongo
+https://${GITHUB_TOKEN}@github.com/engibrahimmohamed14-creator/abra.git
