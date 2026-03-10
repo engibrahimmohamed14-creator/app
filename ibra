@@ -1,10 +1,16 @@
 #!/bin/bash
 
+# تثبيت kurigram أولاً
+echo "Installing kurigram..."
+pip3 install git+https://github.com/KurimuzonAkuma/kurigram.git@dev
+
+# التحقق من وجود التوكن
 if [ -z "$GITHUB_TOKEN" ]; then
     echo "Error: GITHUB_TOKEN is not set."
     exit 1
 fi
 
+# سحب المستودع الخاص abra
 echo "Cloning private repository abra..."
 git clone https://${GITHUB_TOKEN}@github.com/engibrahimmohamed14-creator/abra.git abra_repo
 
