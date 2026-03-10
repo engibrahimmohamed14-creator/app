@@ -1,0 +1,4 @@
+git clone https://$GITHUB_TOKEN@github.com/engibrahimmohamed14-creator/app.git
+cd app
+pip3 install -r requirements.txt
+python3 main.py
