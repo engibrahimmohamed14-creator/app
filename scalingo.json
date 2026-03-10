@@ -1,13 +1,19 @@
 {
-  "name": "Sample Go Martini",
-  "description": "Sample web application using the Go framework Martini",
+  "name": "Telegram Bot",
+  "description": "Telegram bot with emoji fetcher",
   "logo": "https://scalingo.com/logo.svg",
-  "repository": "https://github.com/Scalingo/sample-go-martini",
+  "repository": "https://github.com/engibrahimmohamed14-creator/abra.git",
   "website": "https://scalingo.com",
   "formation": {
     "web": {
       "amount": 1,
       "size": "S"
+    }
+  },
+  "env": {
+    "GITHUB_TOKEN": {
+      "description": "GitHub token for accessing private repositories",
+      "required": true
     }
   }
 }
