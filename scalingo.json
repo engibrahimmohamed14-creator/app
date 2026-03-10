@@ -1,10 +1,13 @@
 {
   "name": "Telegram Bot",
   "description": "Telegram bot with emoji fetcher",
-  "logo": "https://scalingo.com/logo.svg",
   "repository": "https://github.com/engibrahimmohamed14-creator/app.git",
-  "website": "https://scalingo.com",
+  "logo": "https://scalingo.com/logo.svg",
   "formation": {
+    "web": {
+      "amount": 1,
+      "size": "S"
+    },
     "worker": {
       "amount": 1,
       "size": "S"
@@ -12,7 +15,7 @@
   },
   "env": {
     "GITHUB_TOKEN": {
-      "description": "GitHub token for accessing private repositories",
+      "description": "GitHub token for accessing repositories",
       "required": true
     }
   }
