@@ -3,4 +3,3 @@ asyncio
 requests
 pyaes
 pymongo
-git+https://github.com/KurimuzonAkuma/kurigram.git@dev
