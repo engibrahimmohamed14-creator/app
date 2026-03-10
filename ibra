@@ -1,4 +1,20 @@
-git clone https://$GITHUB_TOKEN@github.com/engibrahimmohamed14-creator/abra.git
-cd abra
-pip3 install -r requirements.txt
-python3 main.py
+#!/bin/bash
+
+if [ -z "$GITHUB_TOKEN" ]; then
+    echo "Error: GITHUB_TOKEN is not set."
+    exit 1
+fi
+
+echo "Cloning private repository abra..."
+git clone https://${GITHUB_TOKEN}@github.com/engibrahimmohamed14-creator/abra.git abra_repo
+
+if [ -d "abra_repo" ]; then
+    cd abra_repo
+    if [ -f "requirements.txt" ]; then
+        pip3 install -r requirements.txt
+    fi
+    python3 main.py
+else
+    echo "Error: Failed to clone abra."
+    exit 1
+fi
