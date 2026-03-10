@@ -1,0 +1,6 @@
+https://github.com/KurimuzonAkuma/kurigram/archive/dev.zip
+tgcrypto
+asyncio
+requests
+pyaes
+pymongo
